@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bola Abimbola | Front-End Developer Portfolio</title>
+
+    <meta name="description" 
+          content="Welcome to the portfolio of Bola Abimbola — front-end developer building clean, modern, responsive web experiences. Explore my projects, skills, and contact information." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Bola Abimbola — Front-End Developer" />
+    <meta property="og:description" content="Explore modern, responsive web projects by Bola Abimbola." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-portfolio-home-url.com" />
+
+    <meta property="og:image" content="images/bola-image.webp" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bola Abimbola — Front-End Developer" />
+    <meta name="twitter:description" content="Clean, responsive, user-focused web development projects." />
+    <meta name="twitter:image" content="images/bola-image.webp" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init("XV4HKddSR5ZS_3hNk");
+    </script>
+</head>
+
+
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">Bola Abimbola</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="hero-header">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hi - I'm <span class="accent">Bola Abimbola</span></h1>
+                    <div class="hero-photo">
+                        <img src="images/bola-image.webp" alt="Portrait of Bola Abimbola" class="hero-img-circle">
+                    </div>
+                    <p class="lead-text">
+                        A web developer and SEO specialist creating clean, optimized, high-performing digital
+                        experiences.
+                    </p>
+                    <p>
+                        <a class="btn" href="projects.html">See projects</a>
+                        <a class="btn btn-outline" href="contact.html">Contact me</a>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <section class="featured container">
+            <h2>Featured</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-img">
+                        <video autoplay loop muted playsinline width="100%">
+                            <source src="images/mary-foundation.mp4" type="video/mp4">
+                            A short demo of the Mary Adesokan Foundation website showing the homepage, donation form,
+                            programs, and community impact sections.
+                        </video>
+                    </div>
+
+                    <div class="card-body">
+                        <h3>Project One</h3>
+                        <p>A modern foundation website highlighting humanitarian programs, donation opportunities, and
+                            community impact stories. Developed using HTML, CSS, JavaScript, and on-page SEO
+                            optimization.</p>
+                        <p><a class="card-link" href="projects.html">View project →</a></p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img">
+                        <video autoplay loop muted playsinline width="100%">
+                            <source src="images/luxewear.mp4" type="video/mp4">
+                            A short demo of the LuxeWear – E-Commerce Mockup showing the homepage, product,
+                            cart.
+                        </video>
+                    </div>
+                    <div class="card-body">
+                        <h3>Project Two</h3>
+                        <p>A modern 3-page e-commerce demo with responsive product grid, product details, and a simple
+                            cart. Built with HTML, CSS, and JS for a clean, SEO-friendly design.</p>
+                        <p><a class="card-link" href="projects.html">View project →</a></p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--ABOUT -->
+        <section class="container">
+            <h2>About</h2>
+            <div class="hero-content">
+                <img src="images/abimbola-image.webp" alt="Bola Abimbola image" height="200" width="300">
+                <p>Front-End Web Developer and SEO Specialist with practical experience building responsive,
+                    user-focused
+                    websites using HTML, CSS, JavaScript, and Python. Skilled in SEO optimization, web performance,
+                    mobile
+                    responsiveness, and WordPress customization. Developed websites for ìKoo Digital and Mary Adesokan
+                    Foundation (volunteer), improving page performance and search visibility. Passionate about clean
+                    code,
+                    UI/UX principles, and solving real business problems through technology.</p>
+
+            </div>
+            <h3>Skills</h3>
+        </section>
+        <section class="container ">
+            <div class="chips">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Python</span>
+                <span class="chip">Responsive Design</span>
+                <span class="chip">SEO</span>
+                <span class="chip">Accessibility</span>
+            </div>
+        </section>
+        <section class="container contact-page">
+            <h1>Contact</h1>
+            <p>If you'd like to work together, send a message below or email me at <a
+                    href="mailto:abimbolabolaifalana@gmail.com?subject=Project Inquiry&body=Hello Bola, I want to work with you.">
+                    abimbolabolaifalana@gmail.com
+                </a>
+            </p>
+        </section>
+
+        <section class="container contact-form">
+            <form id="contact-form" action="#" method="post" novalidate>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required placeholder="Your name">
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required
+                    placeholder="Tell me about your project..."></textarea>
+
+                <div class="form-actions">
+                    <button class="btn" id="send-btn" type="submit">Send message</button>
+                </div>
+            </form>
+            <div id="form-alert" style="display:none;"></div>
+        </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Bola Abimbola - Built with HTML & CSS</p>
+            <nav aria-label="Footer">
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- EmailJS form handling -->
+    <script>
+        const form = document.getElementById('contact-form');
+        const sendBtn = document.getElementById('send-btn');
+        const alertBox = document.getElementById('form-alert');
+
+        const EMAILJS_SERVICE_ID = 'service_eiagyc7';
+        const EMAILJS_TEMPLATE_ID = 'template_z1crwi6';
+
+        function showAlert(message, type = 'success') {
+            alertBox.style.display = 'block';
+            alertBox.className = '';
+            alertBox.classList.add('alert');
+            alertBox.classList.add(type === 'success' ? 'alert-success' : 'alert-danger');
+            alertBox.innerText = message;
+            setTimeout(() => { alertBox.style.display = 'none'; }, 6000);
+        }
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            sendBtn.disabled = true;
+            sendBtn.innerText = 'Sending...';
+
+            emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, this)
+                .then(response => {
+                    showAlert('Message sent successfully. Thank you!', 'success');
+                    form.reset();
+                }, error => {
+                    showAlert('Failed to send message. Please try again later.', 'error');
+                })
+                .finally(() => {
+                    sendBtn.disabled = false;
+                    sendBtn.innerText = 'Send Message';
+                });
+        });
+    </script>
+
+    <script>
+        // script to set year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
