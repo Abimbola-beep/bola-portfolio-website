@@ -178,13 +178,12 @@ body{
 /* Cards grid */
 .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;padding:1rem 0}
 .card{background:var(--card);border-radius:var(--radius);overflow:hidden;border:1px solid #eef5fb;display:flex;flex-direction:column}
-.card-img{height:350px;background:linear-gradient(90deg,#eef7ff,#f7fbff);display:flex;align-items:center;justify-content:center;color:var(--muted)}
 .card-body{padding:1rem;flex:1}
 
 /* Projects page */
 .page-intro{padding:2rem 0}
 .projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem;padding:1rem 0}
-.project-card{display:flex;gap:1rem;background:var(--card);border-radius:12px;padding:1rem;border:1px solid #eef5fb}
+.project-card{display:flex;gap:1rem;background:var(--card);border-radius:12px;padding:1rem;border:1px solid #eef5fb; text-align: center;}
 .proj-img{width:140px;height:90px;background:#f3f7fb;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
 .muted{color:var(--muted)}
 .tech{font-size:0.9rem;color:var(--muted)}
